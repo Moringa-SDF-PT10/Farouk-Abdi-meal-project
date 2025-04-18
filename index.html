@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Meal</title>
+    <link rel="icon" href ="Assets/lunch.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>WELCOME TO THE MYSTERY MEAL GAME</h1>
+        <p>Get ready to test your foodie instincts!</p>
+        <p>ll serve you a random dish from around the world — your job is to guess the cuisine (area) or category it belongs to.</p>
+        <p>🔍 Look closely at the image and ingredients...</p>
+        <p>💡 Type your best guess and submit it!</p>
+        <p>✅ Earn points for every correct answer.</p>
+        <p>Can you guess them all? Let’s find out!</p>
+        <p>You will have three attempts each round.</p>
+        <P>Press the start button to begin!</P>
+        <button id="start">START</button>
+    </div>
+
+    <div class="imagecontainer">
+        <div class= "scoreboard">
+            <h1>SCOREBOARD</h1>
+            <p id="score">YOUR SCORE:</p>
+            <button  id="viewresults">View Results</button>
+        </div>
+        <div class="list">
+            <div class="item">
+                <img class="foodimage" src="">
+                <div class="content">
+                    <ul class="ingredients1">
+                        <h2 id="topic">INGREDIENTS</h2>
+                    </ul><br>
+                    <p class="question">Where’s this dish from? Guess the <strong>country</strong> or <strong>food category</strong> based on the ingredients!</p><br>
+                    <input id="input1"placeholder ="your guess"><br>
+                    <button id="submmit1">submmit</button>
+                </div>
+            </div>
+            <div class="item">
+                <img class="foodimage2" src="">
+                <div class="content">
+                    <ul class="ingredients2">
+                        <h2 id="topic">INGREDIENTS</h2>
+                    </ul><br>
+                    <p class="question">Where’s this dish from? Guess the <strong>country</strong> or <strong>food category</strong> based on the ingredients!</p>
+                    <input id="input2" placeholder="your guess"><br>
+                    <button id="submmit2">submmit</button>
+                </div>
+            </div>
+            <div class="item">
+                <img class="foodimage3" src="">
+                <div class="content">
+                   <ul class="ingredients3">
+                    <h2 id="topic">INGREDIENTS</h2>
+                   </ul><br>
+                   <p class="question">Where’s this dish from? Guess the <strong>country</strong> or <strong>food category</strong> based on the ingredients!</p>
+                   <input id="input3" placeholder="your guess"><br>
+                   <button id="submmit3">submmit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <div class="item">
+                <img class="thumbnailimg" src="">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img class="thumbnailimg2" src="">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img class="thumbnailimg3" src="">
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <div class="time"></div>
+    </div>
+
+    <div class="results">
+        <h1>YOUR RESULTS</h1>
+        <p id="total"></p>
+        <p>Below is a summary of the meals</p>
+        <div class="summary">
+            <div class="summary1">
+                <h3>MEAL 1</h3>
+                <p id="description1"></p>
+            </div>
+            <div class="summary2">
+                <h3>MEAL 2</h3>
+                <p id="description2"></p>
+            </div>
+            <div class="summary3">
+                <h3>MEAL 3</h3>
+                <p id="description3"></p>
+            </div>
+        </div>
+        <button id="restart">RESTART GAME</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
