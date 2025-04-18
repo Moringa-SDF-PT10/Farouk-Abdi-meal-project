@@ -51,4 +51,4 @@ If you would like to contribute to this project, follow the steps below;
 
   ## Demo
 
-  `https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project/`
+  [Link text](https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project)
