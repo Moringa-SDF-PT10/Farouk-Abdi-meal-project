@@ -51,4 +51,8 @@ If you would like to contribute to this project, follow the steps below;
 
   ## Demo
 
-  [Link text](https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project)
+  [Link to the Game](https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project)
+
+## :handshake: Acknowledgments
+
+ Shoutout to Moringa-SDF-PT10 for inspiring this amazing project
