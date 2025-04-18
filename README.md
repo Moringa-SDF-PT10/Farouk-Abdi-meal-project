@@ -3,7 +3,7 @@
 ## Description
 
     This project is about a game where the user is given a
-    picture and ingridients for 3 mealsand they have to guess
+    picture and ingridients for 3 meals and they have to guess
     the category of the meal or where the cuisine is from.
 
 ## How to use
@@ -24,10 +24,9 @@
 
 ## ScreenShots
 
-
- ![img1](Assets/Screenshot 2025-04-18 081249.png)
- ![img1](Assets/Screenshot 2025-04-18 193719.png)
- ![img1](Assets/Screenshot 2025-04-18 193732.png)
+![alt text](<Assets/Screenshot 2025-04-18 081249.png>)
+![alt text](<Assets/Screenshot 2025-04-18 193719.png>)
+![alt text](<Assets/Screenshot 2025-04-18 193732.png>)
 
 ## :hammer: Contributions
 
