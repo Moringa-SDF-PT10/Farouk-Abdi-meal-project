@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    position: relative;
+}
+.intro{
+    background-color: rgba(95, 158, 160, 0.717);
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    gap: 10px;
+    top: 0;
+    left: 0;
+    /* z-index: 100; */
+    position: absolute;
+}
+.intro h1{
+    color: rgba(255, 77, 0, 0.852);
+}
+.intro button{
+    width: 100px;
+    height: 50px;
+    transform: translateY(100px);
+}
+.imagecontainer {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    inset: 0 0 0 0;
+    display: none;
+}
+.imagecontainer .scoreboard{
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    width: 400px;
+    height: 200px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(221, 21, 21, 0.301);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    z-index: 100;
+}
+.imagecontainer .scoreboard button{
+    transform: translateY(50px);
+    height: 20px;
+    width: 100px;
+}
+.imagecontainer .list .item{
+    position: absolute;
+    inset: 0 0 0 0;
+}
+.imagecontainer .list .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imagecontainer .list .item .content{
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    width: 500px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.153);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    object-fit: cover;
+}
+.imagecontainer .list .item .content input{
+    height: 30px;
+    width: 400px;
+    transform: translateX(40px);
+}
+.imagecontainer .list .item .content button{
+    height: 20px;
+    width: 100px;
+    transform: translateX(200px)
+}
+input.correct {
+    border: 2px solid green;
+    background-color: #e0ffe0;
+  }
+
+input.wrong {
+    border: 2px solid red;
+    background-color: #ffe0e0;
+  }
+.imagecontainer .list .item .content h2{
+    color: rgb(255, 22, 22);
+}
+.imagecontainer .list .item .content p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bolder;
+}
+.thumbnail{
+    position: absolute;
+    bottom: 60px;
+    left: 60%;
+    width: max-content;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.thumbnail .item{
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+
+}
+.thumbnail .item img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   border-radius: 20px;
+}
+.arrows{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.arrows button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.288);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: larger;
+    transition: 0.5s;
+    z-index: 100;
+}
+.arrows button:hover{
+    background-color: crimson;
+}
+.imagecontainer .list .item:nth-child(1){
+   z-index: 1;
+}
+.imagecontainer .scoreboard{
+        /* transform: translateY(50px); */
+        filter: blur(20px);
+        opacity: 0;
+        animation: showscoreboard 0.5s 1s linear 1 forwards;
+}
+@keyframes showscoreboard{
+        to{
+            opacity: 1;
+            filter: blur(0);
+        }
+}
+.imagecontainer .list .item:nth-child(1) .content{
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showcontent 0.5s 1s linear 1 forwards;
+}
+@keyframes showcontent{
+    to{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0)
+    }
+}
+
+.imagecontainer.next .list .item:nth-child(1) img{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 60%;
+    bottom: 60px;
+    animation: showimage 0.5s linear 1 forwards;
+}
+@keyframes showimage{
+    to{
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+      border-radius: 20px;
+    }
+}
+.imagecontainer.next .thumbnail .item:nth-child(1){
+    width: 0;
+    overflow: hidden;
+    animation: showthumbnail 0.5s linear 1 forwards;
+}
+@keyframes showthumbnail{
+    to{
+       width: 150px;
+    }
+}
+.imagecontainer.next .thumbnail{
+    transform: translateY(150px);
+    animation: transformthumbnail 0.5s linear 1 forwards;
+}
+@keyframes transformthumbnail{
+    to{
+        transform: translateY(0)
+    }
+}
+.imagecontainer.prev .list:nth-child(2){
+    z-index: 2;
+}
+.imagecontainer.prev .list:nth-child(2) img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: lastimage 0.5s linear 1 forwards;
+}
+@keyframes lastimage{
+    to{
+        width: 150px;
+        height: 220px;
+        border-radius: 20px;
+        left: 60px;
+        bottom: 60px;
+    }
+}
+.imagecontainer.prev .thumbnail .item:nth-child(1){
+    width: 0;
+    overflow: hidden;
+    opacity: 1;
+    animation: showthumbnail 0.5s linear 1 forwards;
+}
+.imagecontainer.prev .list .item:nth-child(2){
+    animation: contentout 1.5s linear 1 forwards;
+}
+@keyframes contentout{
+    to{
+        transform: translateY(-150px);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+.imagecontainer.next .arrows button,
+.imagecontainer.prev .arrows button{
+    pointer-events: none;
+}
+.time{
+    width: 100%;
+    height: 5px;
+    background-color: orange;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.imagecontainer.next .time,
+.imagecontainer.prev .time{
+    width: 100%;
+    animation: timer 2s linear 1 forwards;
+}
+@keyframes timer{
+    to{
+        width: 0;
+    }
+}
+.results{
+    position: relative;
+    background-color: rgb(25, 132, 226);
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.results button{
+    position: relative;
+    height: 50px;
+    width: 70px;
+}
+.results .summary{
+    background-color:  rgba(65, 154, 233, 0.808);
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.results .summary .summary1,
+.results .summary .summary2,
+.results .summary .summary3{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
