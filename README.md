@@ -24,11 +24,11 @@
 
 ## ScreenShots
 
-![alt text](<Assets/Screenshot 2025-04-18 081249.png>)
+![alt text](/Assets/Screenshot 2025-04-18 081249.png)
 
-![alt text](<Assets/Screenshot 2025-04-18 193719.png>)
+![alt text](/Assets/Screenshot 2025-04-18 193719.png)
 
-![alt text](<Assets/Screenshot 2025-04-18 193732.png>)
+![alt text](/Assets/Screenshot 2025-04-18 193732.png)
 
 ## :hammer: Contributions
 
@@ -48,3 +48,7 @@ If you would like to contribute to this project, follow the steps below;
 
     Farouk Abdi
   :email: abdifarouk58@gmail.com
+
+  ## Demo
+
+  `https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project/`
