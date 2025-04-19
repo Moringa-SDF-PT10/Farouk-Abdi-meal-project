@@ -2,9 +2,9 @@
 
 ## Description
 
-    This project is about a game where the user is given a
-    picture and ingridients for 3 meals and they have to guess
-    the category of the meal or where the cuisine is from.
+This project is about a game where the user is given a
+picture and ingredients for 3 meals, and they have to guess
+the category of the meal or where the cuisine is from.
 
 ## How to use
 
@@ -46,13 +46,13 @@ If you would like to contribute to this project, follow the steps below;
 
 ## Authors
 
-    Farouk Abdi
-  :email: abdifarouk58@gmail.com
+Farouk Abdi
+:email: abdifarouk58@gmail.com
 
-  ## Demo
+ ## Demo
 
-  [Link to the Game](https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project)
+ [Link to the Game](https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project)
 
 ## :handshake: Acknowledgments
 
- Shoutout to Moringa-SDF-PT10 for inspiring this amazing project
+Shout out to Moringa-SDF-PT10 for inspiring this amazing project
