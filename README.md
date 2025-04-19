@@ -1,58 +1,66 @@
-# FAROUK-ABDI-MEALGAME-PROJECT
+# **FAROUK-ABDI-MEALGAME-PROJECT**
 
-## Description
+## 📝 **Description**
 
-This project is about a game where the user is given a
-picture and ingredients for 3 meals, and they have to guess
-the category of the meal or where the cuisine is from.
+This is a fun and interactive web-based game where users are shown a **picture and a list of ingredients** for three different meals. The challenge is to guess **either the category** of the meal (like "Dessert", "Seafood") or **its cuisine origin** (like "Italian", "Mexican").
 
-## How to use
+---
 
-  For you to run this project;
+## 🎮 **Features**
 
-- Open the App in your browser
+- Interactive gameplay with meal images and ingredients
+- User-friendly interface with buttons for starting, restarting, and viewing results
+- Score tracking and round summary after 3 guesses
+- Dynamic fetching of meals using TheMealDB API
 
-- Read through the instructions of the game
+---
 
-- press the start button to start the gamey
+## 🚀 **How to Use**
 
-- Attempt to guess the meals shown on the page
+To run and enjoy this game:
 
-- After the 3 attempts click the view results to see your total score and a summary of the meals shown
+1. **Open the app** in your browser
+2. **Read the game instructions** displayed on the home screen
+3. **Press the "Start" button** to begin the game
+4. **Try to guess the category or cuisine** of the meals shown
+5. After 3 rounds, click **"View Results"** to see your total score and a summary
+6. Click **"Restart"** to play again!
 
-- Click the restart button to restart the game if you would like to attempt again
+---
 
-## ScreenShots
+## 📸 **Screenshots**
 
-![alt text](</Assets/Screenshot 2025-04-18 081249.png>)
+![Screenshot 1](</Assets/Screenshot%202025-04-18%20081249.png>)
+![Screenshot 2](</Assets/Screenshot%202025-04-18%20193719.png>)
+![Screenshot 3](</Assets/Screenshot%202025-04-18%20193732.png>)
 
-![alt text](</Assets/Screenshot 2025-04-18 193719.png>)
+---
 
-![alt text](</Assets/Screenshot 2025-04-18 193732.png>)
+## 🛠️ **Contributions**
 
-## :hammer: Contributions
+Want to contribute? Follow these steps:
 
-If you would like to contribute to this project, follow the steps below;
+1. **Fork** the repository
+2. **Create a new branch** for your feature or bug fix
+3. **Commit** your changes
+4. **Push** to your branch
+5. **Submit a Pull Request**
 
-- Fork this repo
+---
 
-- Create a new branch
+## 👤 **Author**
 
-- Commit your changes
+**Farouk Abdi**
+📧 abdifarouk58@gmail.com
 
-- Push to the branch
+---
 
-- Submit a pull Request
+## 🎯 **Live Demo**
 
-## Authors
+👉 [Click here to play the game](https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project)
 
-Farouk Abdi
-:email: abdifarouk58@gmail.com
+---
 
- ## Demo
+## 🙌 **Acknowledgments**
 
- [Link to the Game](https://moringa-sdf-pt10.github.io/Farouk-Abdi-meal-project)
-
-## :handshake: Acknowledgments
-
-Shout out to Moringa-SDF-PT10 for inspiring this amazing project
+Big shoutout to **Moringa-SDF-PT10** for the inspiration and support in bringing this project to life!
