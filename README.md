@@ -3,7 +3,7 @@
 ## Description
 
     This project is about a game where the user is given a
-    picture and ingridients for 3 meals and they have to guess
+    picture and ingregitdients for 3 meals and they have to guess
     the category of the meal or where the cuisine is from.
 
 ## How to use
@@ -46,8 +46,8 @@ If you would like to contribute to this project, follow the steps below;
 
 ## Authors
 
-    Farouk Abdi
-  :email: abdifarouk58@gmail.com
+Farouk Abdi
+:email: abdifarouk58@gmail.com
 
   ## Demo
 
@@ -55,4 +55,4 @@ If you would like to contribute to this project, follow the steps below;
 
 ## :handshake: Acknowledgments
 
- Shoutout to Moringa-SDF-PT10 for inspiring this amazing project
+ Shout out to Moringa-SDF-PT10 for inspiring this amazing project
