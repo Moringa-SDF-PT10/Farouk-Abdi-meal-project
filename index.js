@@ -39,6 +39,16 @@ resultsBtn.addEventListener("click", ()=>{
    resultsDiv.style.display = "flex"
    let totalPoints = document.querySelector('#total')
    totalPoints.textContent = `Your total is ${points} out of 3`
+   let remarks = document.querySelector('#remarks')
+   if(points === 3){
+      return remarks.textContent = "Wow, your foodie instincts are top level"
+   }else if(points === 2){
+      return remarks.textContent = "Your foodie instincts are almost there "
+   }else if(points = 1){
+      return remarks.textContent = "Nice try"
+   }else{
+      return remarks.textContent = "Better luck next time"
+   }
    })
 
 restartBtn.addEventListener("click", ()=>{
