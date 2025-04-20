@@ -44,7 +44,7 @@ resultsBtn.addEventListener("click", ()=>{
       return remarks.textContent = "Wow, your foodie instincts are top level"
    }else if(points === 2){
       return remarks.textContent = "Your foodie instincts are almost there "
-   }else if(points = 1){
+   }else if(points === 1){
       return remarks.textContent = "Nice try"
    }else{
       return remarks.textContent = "Better luck next time"
